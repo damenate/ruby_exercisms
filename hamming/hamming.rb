@@ -2,11 +2,6 @@ class Hamming
 VERSION = 1
 
   def self.shortest(a, b)
-    # if a.size < b.size
-    #   a.size
-    # else
-    #   b.size
-    # end
     a.size < b.size ? a.size : b.size
   end
 
